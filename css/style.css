@@ -1,0 +1,979 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;   
+}
+
+.navbar{
+    background-color:#f0efef;
+
+}
+    
+.brand-logo img{
+	width:157px;
+	height:50px;
+}
+
+
+
+.navbar-nav .nav-item a{
+    color: black;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-item a:hover{
+    color:#d4ac6e;
+}
+
+
+.food_search {
+    background-image: url("../images/top-view-circular-food-frame.jpg");
+    background-size: cover;
+    padding: 6%  0%;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.search-bar img{
+    /* height:20px;*/
+    width:25px;
+}
+
+.search-bar{
+    width:100%;
+    max-width: 700px;
+    background: rgba(255, 255, 255, 0.832);
+    display:flex;
+    align-items: center;
+    border-radius: 60px;
+    padding:10px 20px;
+    backdrop-filter: blur(4px) saturate(180%);
+
+}
+
+.search-bar input{
+    background:transparent;
+    flex:1;
+    border:0;
+    outline:none;
+    font-size:15px;
+    color:black;
+    
+
+}
+
+
+.search-bar button{
+    border:0;
+    border-radius: 30px;
+    background:transparent;
+    cursor:pointer;
+    
+}
+
+.search-bar h5{
+    color:black;
+    
+
+}
+
+.search-bar h5 a{
+    text-decoration: none;
+    color:#ff0000;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+}
+
+.home-categories{
+    width: 100%;
+   display: flex;
+   padding: 20px;
+  
+   
+}
+
+.home-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.home-container a{
+    text-decoration: none;
+
+}
+
+
+
+    
+.home-container .card{
+    height:200px;
+    width:200px;
+    margin:50px;
+    box-shadow: 5px 5px 20px black;
+    overflow:hidden;
+}
+
+.home-container .intro{
+    width:200px;
+    padding: 6px;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+}
+
+.home-container .intro h4{
+    font-size: 15px;
+    padding-top:10px;
+    color:#d4ac6e;
+    font-family:cursive;
+    text-decoration: none;
+
+}
+
+.home-categories img{
+    height:200px;
+    width:200px;
+    border-radius: 5px;
+}
+
+
+
+
+.categories{
+   
+    background-color:#f0efef ;
+    width:100%;
+    padding: 50px;
+    
+    
+    
+    
+}
+
+.categories .container{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+   
+}
+
+.container a{
+    text-decoration: none;
+}
+
+.container .card{
+    height:200px;
+    width:200px;
+    margin:50px;
+    box-shadow: 5px 5px 20px black;
+    overflow:hidden;
+}
+
+
+
+.categories img{
+    height:200px;
+    width:200px;
+    border-radius: 5px;
+}
+
+.container .intro{
+    width:200px;
+    padding: 6px;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.container .intro h4{
+    font-size: 15px;
+    padding-top:10px;
+    color:#d4ac6e;
+    font-family:cursive;
+    text-decoration: none;
+}
+
+
+.heading-style{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:#d4ac6e;
+}
+
+
+
+
+.food-category{
+    text-decoration: none;
+    color:white
+}
+
+
+
+
+
+
+
+.food_menu{
+    background-color:#f0efef;
+    display:flex;
+}
+
+
+
+.food_menu .container{
+    width:100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;   
+    padding: 30px 0px;
+   
+}
+.food_menu .container a{
+    text-decoration: none;
+    color:white;
+
+}
+
+.food_menu .container a:hover{
+    color:yellow;
+}
+
+.carousel-item img{
+   width:700px;
+   height:500px;
+    
+}
+
+.carousel{
+    width:100%;
+}
+
+.food-trending{
+   display: flex;
+   align-items: center;
+   justify-content:center;
+   
+}
+
+.food-trending h4{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #d4ac6e;
+    font-size:30px;
+    padding: 20px;
+}
+
+
+.footer {
+    padding: 25px;
+    background-color:#f0efef;
+    display: flex;   
+}
+
+.footer .container{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.copyright{
+    text-align: right;
+    color: rgba(13, 16, 180, 0.653);
+      
+}
+
+.social ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;    
+}
+
+
+.social li {
+    margin-right: 10px; /* Optional: Add some spacing between list items */
+}
+
+.social a {
+    text-decoration: none;
+    color: rgba(13, 16, 180, 0.653); /* Set link color to match the text color */
+    cursor: pointer;
+}
+
+.social h6{
+    color: rgba(13, 16, 180, 0.653); /* Set link color to match the text color */
+}
+
+
+.about-section{
+    background: url(../images/desserts.jpg) no-repeat left;
+    background-size: 100%;
+    background-color: #fdfdfd;
+    overflow: hidden;
+    padding: 100px 40px;
+
+}
+
+
+.inner-container{
+    width:45%;
+    float: right;
+    background-color:#4e408373;
+    padding:150px;
+}
+
+.inner-container h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    
+}
+
+.text{
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 13px;
+    color: white;
+
+}
+
+.contact{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url("../images/contact2.jpg");
+    background-size: cover;
+}
+
+.contact h2{
+    text-align: center;
+}
+
+
+.contact .content{
+    font-size: 20px;
+    font-weight: 500;
+    color:#000;
+    text-align: center;
+
+}
+
+.contact .container{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.contact .container .contact-info{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contact .container .contact-info .box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+
+.contact .container .contact-info .box .icon{
+    min-width: 60px;
+    height:60px;
+    background:#f0efef;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 22px;
+    align-items: center;
+}
+
+.contact .container .contact-info .box .text1{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #000;
+    flex-direction: column;
+    font-weight: 300;
+
+}
+
+.contact .container .contact-info .box .text1 h3{
+    font-weight: 500;
+    color: #000;
+}
+
+.contactForm{
+    width: 40%;
+    padding: 40px;
+    background:#fff;
+
+}
+
+.contactForm h2{
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+}
+
+.contactForm .input-box{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+
+.contactForm .input-box input,
+.contactForm .input-box textarea
+{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+
+}
+
+
+
+
+.healthy-section{
+    background-color: #f0efef;
+    padding:4% 0;
+
+
+}
+
+
+.healthy-section .box{
+    border: 1px solid black;
+    width:500px;
+    height:200px;
+    padding: 2%;
+    float: left;
+    background-color: #fff;
+    border-radius: 15px;
+    box-sizing: border-box;
+    margin: 1%;
+}
+
+
+.food-menu-img .img{
+    height: 100px;
+    width: 150px;
+    float: left;
+    border-radius: 5%;
+    
+}
+
+
+
+.food-price{
+    font-size:1.2rem;
+    margin:2% 0;
+}
+
+.food-about{
+    font-size: 0.8rem;
+    color:#747d8c;
+
+}
+
+.food-menu-details {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    margin-left:37%;
+}
+
+.order-cart {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.order-btn {
+    text-decoration: none;
+    background: red;
+    width: 60px;
+    height: 30px;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    margin-right: 10px;
+}
+
+
+
+.order-cart {
+    display: flex;
+    align-items: center;
+}
+
+.order-btn{
+    text-decoration: none;
+    background: red;
+    width: 60px;
+    height: 30px;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    margin-right: 10px;
+}
+
+.box {
+    overflow: hidden; /* Add this to clear the float */
+}
+
+
+
+
+
+
+.order-page {
+    width: 100%;
+    background-image: url(../images/signupimg\ \(2\).jpg);
+    background-size:cover ;
+    height: 900px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-right: 250px;
+}
+
+.order-container {
+    
+    flex-direction: column;
+
+   
+}
+
+
+.cart-product{
+    margin-bottom: 50px;
+    
+  
+    
+}
+
+.order-form{
+    
+    width:500px;
+    height:200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    
+}
+
+
+.order-form .img{
+    width: 150px;
+    height:150px;
+    margin-right:35px ;
+}
+
+.food-menu-desc{
+    
+}
+
+
+
+.form-heading{
+    color:#000;
+    font-weight:bold;
+    text-align: center;
+}  
+
+.user-details-form{
+    background-color:white;
+    color:#000;
+    width:500px;
+    border-radius: 10px;
+    padding: 40px;
+
+    
+}
+
+#name,#phno,#address,#email{
+    margin:8px;
+}
+
+
+
+.payment-heading{
+    font-size: 15px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+
+
+.sub-btn{
+    display: flex;
+    justify-content:flex-end;
+    
+   
+}
+
+
+
+.sub-btn input[type="submit"]{
+    text-decoration: none;
+    background-color: violet;;
+    width:90px;
+    height:40px;
+    color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+}
+
+
+.sub-btn a:hover{
+    background-color:blueviolet;
+    color: #fff;
+}
+
+
+
+
+
+
+
+.popup{
+    width:269px;
+    height: 147px;
+    background: #8420299e;
+    border-radius: 6px;
+    position:absolute;
+    top:0;
+    left:50%;
+    visibility: hidden;
+    text-align: center;
+    padding: 0 30px 30px;
+    transform:translate(-50%,-50%) scale(0.1);
+    transition: transform 0.4s,top 0.4s;
+    
+    
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; /* Arrange buttons with space between them */
+    margin-top: 20px; /* Adjust margin as needed */
+}
+
+
+
+.popup h2{
+    font-size: 15px;
+    font-weight:500px;
+    margin:30px 0 10px;
+    color: white;
+}
+
+
+.popup button{
+    width: 65px;
+    height: 35px;
+    margin-top: 50px;
+    padding:10px 0;
+    background:white;
+    border:0;
+    outline:none;
+    font-size:10px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    color:black;
+    margin: auto;
+    display: block;
+    font-weight: bold;
+}
+
+
+.popup button:hover{
+    background-color: rgb(225, 10, 78);
+    color: white;
+}
+
+
+.open-popup{
+    visibility: visible;
+    top:50%;
+    transform: translate(-50%,-50%) scale(1);
+}
+
+
+.registerpage{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    color: #333;
+    background-image: url(../images/signupimg\ \(1\).jpg);
+    background-size: cover;
+    padding-left: 100px;
+}
+
+
+
+.reg-form{
+    background:white;
+    width:100%;
+    padding: 46px 90px;
+    border-radius: 30px;
+   
+
+
+}
+
+#name, #phno, #address, #email {
+    margin: 1px;
+}
+
+.reg-form label{
+    margin-bottom: 10px;
+    display: block;
+    font-size: 15px;
+}
+
+.reg-form input{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+
+.reg-button{
+    background-color: skyblue;
+    color: white;
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.signin{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    
+}
+ 
+.signin h6{
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:600px) {
+    .about-section{
+        padding: 0;
+    }
+    .inner-container{
+        width:100%;
+        padding: 50px;
+
+    }
+        .contact {
+            padding: 30px 20px;
+        }
+    
+        .contact .container {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+    
+        .contact .container .contact-info,
+        .contactForm {
+            width: 100%;
+            padding: 20px;
+            margin-top: 20px;
+        }
+    
+
+
+        .navbar {
+            padding: 10px;
+        }
+    
+        .search-bar {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .search-bar input {
+            margin-bottom: 10px;
+        }
+        .categories{
+            overflow: scroll;
+            padding: 1px;
+        }
+
+        .categories img{
+            width:100px;
+            height: 100px;
+        }
+
+        .card{
+            width:100px;
+            height: 100px;
+           
+            box-shadow: 5px 5px 20px black;
+            overflow:hidden;
+        }
+
+        .intro{
+            width:98px;
+            text-align: center;
+        }
+
+        .healthy-section h2 {
+            text-align: center;
+        }
+    
+        /* Ensure each box takes up full width on smaller screens */
+        .box {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+    
+        .food-menu-img {
+            width: 100%;
+        }
+    
+        .food-menu-details {
+            width: 100%;
+            text-align: center;
+            margin-top: 10px;
+            margin-left: auto;
+        }
+    
+        .order-cart {
+            text-align: center;
+            margin-top: 10px;
+        }
+    
+        .footer {
+            text-align: center;
+        }
+    
+    
+     .registerpage {
+          padding-left: 20px;
+          background-size: 500px;
+        }
+        .reg-form {
+          padding: 20px;
+        }
+
+        .cart-product p{
+            display: none;
+        }
+
+        .order-page {
+            justify-content: center;
+            align-items: center;
+            padding-right: 20px; /* Adjust as needed for spacing on small screens */
+            height: 650px;
+            width:400px;
+            padding:0px 30px 0px 14px;
+            background-image: url('../images/desserts.jpg');
+            background-size: 200px;/* Adjust to allow content to determine height */
+            
+          }
+        
+          .order-container {
+            width: 100%;
+          }
+        
+          .form-heading,
+          .user-details-form,
+          .payment-heading {
+            text-align: center;
+          }
+        
+          .sub-btn {
+            justify-content: center;
+          }
+        
+          .sub-btn button {
+            width: 100%; /* Make the button full-width on small screens */
+          }
+        
+          .cart-product {
+            margin-bottom: 20px; /* Adjust spacing between cart products */
+          }
+        
+          .cart-product img {
+            width: 60px; /* Adjust product image size for small screens */
+            height: 60px;
+            margin-right: 10px;
+          }
+        
+
+      
+}
+
+       
